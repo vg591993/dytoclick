@@ -1,0 +1,20 @@
+.tabs {
+  @apply w-full;
+}
+
+.tabsList {
+  @apply w-full bg-gradient-to-r from-sage-100 to-mint-100 
+         p-1.5 rounded-2xl mb-6 border border-emerald-800/10;
+}
+
+.tabsTrigger {
+  @apply flex-1 capitalize rounded-xl
+         data-[state=active]:bg-gradient-to-br 
+         data-[state=active]:from-emerald-800 data-[state=active]:to-emerald-600
+         data-[state=active]:text-white text-emerald-800
+         transition-colors duration-200;
+}
+
+.mealGrid {
+  @apply flex flex-wrap gap-4;
+}

@@ -1,0 +1,117 @@
+change these options for the following nextjs constants with the values I give you:
+
+export const ACTIVITY_LEVELS = [
+  { value: 'sedentary', label: 'Sedentary' },
+  { value: 'light', label: 'Light Activity' },
+  { value: 'moderate', label: 'Moderate Activity' },
+  { value: 'active', label: 'Very Active' }
+] as const;
+
+export const GENDER_OPTIONS = [
+  { value: 'male', label: 'Male' },
+  { value: 'female', label: 'Female' },
+  { value: 'other', label: 'Other' }
+] as const;
+
+export const DIETARY_OPTIONS = [
+  'Vegetarian',
+  'Vegan',
+  'Gluten-Free',
+  'Dairy-Free',
+  'Keto',
+  'Paleo'
+] as const;
+
+export const LIQUID_OPTIONS = [
+  'Coffee',
+  'Tea',
+  'Soft Drinks',
+  'Energy Drinks',
+  'Alcohol'
+] as const;
+
+export const DISEASE_OPTIONS = [
+  'Diabetes',
+  'Hypertension',
+  'Heart Disease',
+  'Kidney Disease',
+  'Liver Disease'
+] as const;
+
+my values:
+
+DIETARY_OPTIONS: CEREALS
+    VEG_C
+    FATS_AND_OILS
+    SUGAR
+    NUTS
+    MEAT_FISH_EGG
+    MILK
+    PULSES
+    VEG_A
+    VEG_B
+    FRUITS
+
+ACTIVITY_LEVELS: SEDENTARY
+LIGHTLY_ACTIVE
+MODERATE
+ACTIVE
+EXTREMELY_ACTIVE
+
+DISEASE_OPTIONS: Normal
+KETO
+Keto_Pediatric
+PREGNANCY_2rd_Trimester
+PREGNANCY_3rd_Trimester
+LACTATION_0_to_6_month
+LACTATION_7_to_12_month
+CHILDREN_EXCHANGE_LIST_1_to_3_years
+CHILDREN_EXCHANGE_LIST_4_to_6_years
+CHILDREN_EXCHANGE_LIST_7_to_9_years
+ADOLESCENTS
+ADOLESCENTS_BOY
+ADOLESCENTS_GIRL
+ADOLESCENTS_BOY_10_12
+ADOLESCENTS_BOY_13_15
+ADOLESCENTS_BOY_16_17
+ADOLESCENTS_GIRL_10_12
+ADOLESCENTS_GIRL_13_15
+ADOLESCENTS_GIRL_16_17
+WEIGHT_GAIN
+WEIGHT_LOSE
+SPORTS_PERSON
+CANCER
+Peptic_ulcer
+Peptic_ulcer_Mild_to_Moderate
+Liver_Disease
+Renal
+IBS
+Gallbladder
+PCOD
+Gastritis
+CVD
+T2dm
+Anemia
+RENAL_DIALYSIS
+Hypothyroidism
+Hyperthyroidism
+Celiac
+Fever
+
+LIQUID_OPTIONS: CLEAR_FLUID_DIET
+FULL_FLUID_DIET
+PEG_TUBE_FEEDING_WITH_MILK
+PEG_TUBE_FEEDING_WITHOUT_MILK
+PEG_TUBE_FEEDING_DIABETIC
+PEG_TUBE_FEEDING_VEGETARIAN
+PEG_TUBE_FEEDING_NORMAL
+NASOGASTRIC_TUBE_FEEDING_NORMAL
+NASOGASTRIC_TUBE_FEEDING_WITHOUT_MILK
+JEJUNOSTOMY_TUBE_FEEDING_NORMAL
+JEJUNOSTOMY_TUBE_FEEDING_DIABETIC
+JEJUNOSTOMY_TUBE_FEEDING_VEGETARIAN
+JEJUNOSTOMY_TUBE_FEEDING_WITHOUT_MILK
+NASOJEJUNAL_TUBE_FEEDING_NORMAL
+NASOJEJUNAL_TUBE_WITHOUT_MILK
+
+Make them as values and display option, these are the values. In the display options, remove the underscore and capitals from the words. Make them normal.

@@ -1,0 +1,44 @@
+.container {
+  @apply min-h-screen bg-gradient-to-b from-sage-50 to-mint-50 p-4;
+}
+
+.header {
+  @apply flex flex-col items-center mb-8;
+}
+
+.logoContainer {
+  @apply w-16 h-16 bg-gradient-to-br from-emerald-800 to-emerald-600 
+         rounded-2xl flex items-center justify-center mb-4;
+}
+
+.logoIcon {
+  @apply w-8 h-8 text-white;
+}
+
+.title {
+  @apply text-3xl font-bold text-emerald-800 mb-2;
+}
+
+.subtitle {
+  @apply text-emerald-600/60;
+}
+
+.content {
+  @apply grid grid-cols-12 gap-6 max-w-7xl mx-auto;
+}
+
+.menuSection {
+  @apply col-span-12 lg:col-span-8;
+}
+
+.overviewSection {
+  @apply col-span-12 lg:col-span-4;
+}
+
+.navigation {
+  @apply flex items-center justify-between mb-6 max-w-7xl mx-auto px-4;
+}
+
+.backButton {
+  @apply text-emerald-800 hover:bg-emerald-50 hover:text-emerald-800;
+}

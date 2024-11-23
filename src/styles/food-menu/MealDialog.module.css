@@ -1,0 +1,33 @@
+.content {
+  @apply bg-gradient-to-br from-sage-50 to-mint-50 
+         border-emerald-800/10 rounded-2xl;
+}
+
+.title {
+  @apply text-2xl text-emerald-800;
+}
+
+.body {
+  @apply text-emerald-800;
+}
+
+.tags {
+  @apply flex flex-wrap gap-2 mb-4;
+}
+
+.tag {
+  @apply px-3 py-1 rounded-full bg-white/50 text-emerald-800/80 text-sm;
+}
+
+.subtitle {
+  @apply font-medium mb-3;
+}
+
+.ingredients {
+  @apply grid grid-cols-2 gap-2 mb-6;
+}
+
+.ingredient {
+  @apply p-3 rounded-xl bg-gradient-to-br from-white/50 to-mint-50/50 
+         border border-emerald-800/10;
+}

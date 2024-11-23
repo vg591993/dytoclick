@@ -1,0 +1,43 @@
+.card {
+  @apply bg-gradient-to-br from-white/80 to-mint-50/80 
+         border-emerald-800/10 rounded-2xl;
+}
+
+.content {
+  @apply p-6;
+}
+
+.header {
+  @apply flex items-center justify-between mb-6;
+}
+
+.title {
+  @apply text-lg font-medium text-emerald-800;
+}
+
+.toggleButton {
+  @apply px-4 py-2 rounded-xl bg-gradient-to-br from-sage-50 to-mint-50
+         hover:from-emerald-800 hover:to-emerald-600 text-emerald-800
+         hover:text-white transition-colors duration-200
+         border border-emerald-800/10 text-sm flex items-center gap-2;
+}
+
+.nutrients {
+  @apply space-y-6;
+}
+
+.microsGrid {
+  @apply grid grid-cols-2 gap-3;
+}
+
+.macrosContainer {
+  @apply space-y-4;
+}
+
+.macrosGrid {
+  @apply grid grid-cols-3 gap-3;
+}
+
+.metricsGrid {
+  @apply grid grid-cols-2 gap-3;
+}
